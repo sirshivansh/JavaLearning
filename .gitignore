@@ -1,0 +1,10 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Production build output
+out/
+
+# OS generated files
+.DS_Store
+Thumbs.db
