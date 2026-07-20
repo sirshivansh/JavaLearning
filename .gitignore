@@ -1,10 +1,29 @@
-# IntelliJ IDEA project files
+# Compiled Java classes
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
 .idea/
 *.iml
 
-# Production build output
-out/
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
 
-# OS generated files
+# VS Code
+.vscode/
+
+# macOS
 .DS_Store
+
+# Windows
 Thumbs.db
