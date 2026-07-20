@@ -1,5 +1,6 @@
 # DSA FUNDAMENTALS
 
+> EASY
 ## Even or Odd
 
 > Naive Approach : By finding the remainder - O(1) time complexity, and O(1) space complexity
@@ -166,13 +167,15 @@ class sumOfSquaresFirstnNaturals
 
 > Expected Approach: Using Mathematical Formulae - O(1) time, O(1) space
 
-Formula: Sum of squares of first n naturals = n * (n+1) * (2n+1) / 6
+Formula: Sum of squares of first n naturals = n * (n+1) * (2 * n+1) / 6
 
 ```
 class sumOfSquaresFirstNaturalsUsingFormula
 {
 	static int printSquares(int n){
-		return (n * (n+1) * (2*n+1)) / 6;
+		//return (n * (n+1) * (2*n+1)) / 6;
+		return n * (n+1)/2 * (2*n+1)/3; 
+		//to avoid overflow, when large values of n
 	}
 	public static void main(String[] args){
 		int n = 5;
@@ -181,4 +184,45 @@ class sumOfSquaresFirstNaturalsUsingFormula
 }
 ```
 
+-> In the above code, the return value might overflow due to large value of n
+-> to avoid this overflow, we split the formula:
+-> n * (n+1)/2 * (2 * n+1)/3
+
 ---
+# Swapping Two Numbers
+
+> Idea: Using a Third Variable
+
+```
+// Using a Third Variable 
+
+class SwappingTwoNumbers
+{
+	public static void Swap(int a, int b){
+		int temp = 0;
+		temp = a;
+		a = b;
+		b = temp;
+		System.out.println(a + " " + b);
+	}
+	public static void main(String[] args){
+		int a = 10;
+		int b = 5;
+		System.out.println("Before Swap: ");
+		System.out.println(a + " " + b);
+		System.out.println("After Swap: ");
+		Swap(a,b);
+	}
+}
+```
+
+Output:
+```
+Before Swap:
+10 5
+After Swap:
+5 10
+```
+
+> Without using Third Variable - Using Arithmetic Operator
+
