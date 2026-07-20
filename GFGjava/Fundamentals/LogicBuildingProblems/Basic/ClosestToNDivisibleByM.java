@@ -1,0 +1,4 @@
+class ClosestToNDivisibleByM
+{
+	//TO-DO
+}
