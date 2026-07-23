@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA NOTES (GFG)/DSA FUNDAMENTALS/BASIC/DSA Fundamentals (BASIC).md",
+                "file": "DSA NOTES (GFG)/DSA FUNDAMENTALS/EASY/DSA Fundamentals (EASY).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSA Fundamentals (BASIC)"
+              "title": "DSA Fundamentals (EASY)"
             }
           }
         ]
@@ -186,6 +186,8 @@
   "active": "30a4957ae21d8ff2",
   "lastOpenFiles": [
     "DSA NOTES (GFG)/DSA FUNDAMENTALS/BASIC/DSA Fundamentals (BASIC).md",
+    "DSA NOTES (GFG)/DSA FUNDAMENTALS/EASY/DSA Fundamentals (EASY).md",
+    "DSA NOTES (GFG)/DSA FUNDAMENTALS/EASY",
     "JavaCodeNotes/LinkedListEx1.md",
     "Untitled.md",
     "JavaCodeNotes",
